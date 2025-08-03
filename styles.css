@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*ALL*/
+* {
+    font-family: "dm sans";
+    color: rgb(117, 117, 117);
+    
+}
+
+html,body {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* HEADER */
+.nadpis {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.15); 
+}
+
+.negr {
+    align-content: center;
+    z-index: 2;
+    padding-right: 3vw;
+    font-size: 0.8vw;
+}
+
+.ne {
+    padding: 0.75vw 2vw 0.75vw 2vw;
+    text-decoration: none;
+}
+
+.a {
+    padding: 5rem;
+}
+
+.ne:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.loga {
+    z-index: 2;
+    padding-left: 1.25vw;
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 0.625vw;
+}
+
+.logo {
+    width: 6.25vw;
+    padding: 0.3125vw;
+}
+
+.img {
+    display:inline;
+    width: 9.375vw;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 0.625vw;
+}
+
+
+
+
+
+/*MAIN CONTENT*/
+.logoo {
+    background-color: rgba(161, 161, 161, 0);
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    /*bottom: 34.375rem;*/
+    margin-top: -15.625vw;
+    }
+
+.kont {
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    bottom: 50vw;
+}    
+
+.text {
+    color: rgb(160, 160, 160);
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.test {
+    z-index: -1;
+    position: static;
+    /*bottom: 6.25rem;*/
+    margin-top: -3.9vw;
+}
+
+
+
+
+/*FOOTER*/
+.nadpisx {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.15); 
+    border-radius: 0.5vw;
+}
+
+.logax {
+    padding-left: 1.25vw;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 0.625vw;
+}
+
+.imgx {
+    display:inline;
+    width: 20vw;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 0.45vw;
+}
+
+.logox {
+    width: 12vw;
+    padding: 0.45vw;
+}
+
+.obal {
+    display: flex;
+    font-size: 1vw;
+}
+
+.ico {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5vw;
+    justify-content: flex-end;
+}
+
+.nezz {
+    padding: 1.25vw 1vw 1.9vw 1vw;
+}
+
+.negrx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2;
+    padding-right: 3vw;
+    
+}
+
+.nex {
+    padding: 1.5vw 1vw 0.25vw 3vw;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.75vw;
+}
+
+.oball {
+    display: flex;
+    align-items: center;
+    padding: 1vw 0vw 1vw 0vw;
+}
+
+.neyy {
+    padding: 0vw 0vw 0vw 1vw;
+}
+
+.telefon {
+    width: 2vw;
+    align-self: center;
+}
+
+.ney {
+    display: inline;
+    padding: 1.5vw 1vw 1.5vw 1vw;
+    text-decoration: none;
+}
+
+.nez {
+    padding: 0.75vw 1vw 1.5vw 1vw;
+    text-decoration: none;
+}
